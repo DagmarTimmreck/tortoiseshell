@@ -1,31 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
   <title>Tortoiseshell Optics</title>
   <link href="./resources/css/normalize.css" rel="stylesheet" type="text/css" />
   <link href="./resources/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+
   <header>
+
     <div class="header-bar">
       <div class="company">
         <img src="./resources/images/logo-white.png" alt="logo" role="presentation" />
         <span>Tortoiseshell Optics</span>
       </div>
       <span class="menu-button">Menu</span>
+
       <nav role="navigation">
         <ul>
           <li><a href="#">Services</a></li>
           <li><a href="#">Products</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
+        <span class="menu-button"><a href="#">Menu</a></span>
       </nav>
     </div>
-    <h1>Don't just look, see.</h1>
+    <div class="heading container">
+      <h1>Don't just look, see.</h1>
+
+    </div>
   </header>
+
   <main class="container">
     <div class="gallery">
       <figure>
@@ -33,15 +42,20 @@
         <figcaption>Comprehensive Exams</figcaption>
       </figure>
       <figure>
-        <img src="./resources/images/ruler-icon.png" alt="ruler-icon" role="presentation">
+        <div class="image-box">
+          <img src="./resources/images/ruler-icon.png" alt="ruler-icon" role="presentation">
+        </div>
         <figcaption>Custom Fittings</figcaption>
       </figure>
       <figure>
-        <img src="./resources/images/truck-icon.png" alt="truck-icon" role="presentation">
-        <figcaption>Fast Delivery</figcaption>
+        <div class="image-box">
+          <img src="./resources/images/truck-icon.png" alt="truck-icon" role="presentation">
+        </div>
+        <figcaption class="last-caption">Fast Delivery</figcaption>
       </figure>
     </div>
-    <div class="gallery">
+    <!-- gallery with paragraphs -->
+    <div class="gallery container">
       <div class="gallery-item">
         <h2>Philosophy</h2>
         <p>
@@ -56,11 +70,10 @@
       </div>
     </div>
   </main>
-  <footer>
-    <div class="company container">
-      <img src="./resources/images/logo-black.png" alt="logo" role="presentation" />
-      <span>Copyright Tortoiseshell Optics</span>
-    </div>
+
+  <footer class="container">
+    <img src="./resources/images/logo-black.png" alt="logo" role="presentation">
+    <span>Copyright Tortoiseshell Optics</span>
   </footer>
 </body>
 
